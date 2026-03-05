@@ -1,5 +1,7 @@
 # Pipeline para la Construcción de un Dataset Confiable de Teléfonos de Clientes
 
+# Punto 1
+
 ## 1. Objetivo
 
 Diseñar un proceso automatizado para la creación, validación y mantenimiento de un dataset confiable de números de teléfono de clientes.
@@ -204,7 +206,9 @@ Esto garantiza:
 
 ---
 
-# 11. Monitoreo de calidad de datos
+# Punto 2
+
+# 1. Monitoreo de calidad de datos
 
 Para evaluar continuamente la calidad del dataset se definen indicadores de calidad de datos (KPI).
 
@@ -260,7 +264,7 @@ Este indicador permite detectar problemas en los procesos de captura de datos.
 
 ---
 
-# 12. Beneficios de la solución
+# 2. Beneficios de la solución
 
 La solución propuesta permite:
 
