@@ -24,8 +24,6 @@ html_processor/
 
 ## Cómo ejecutar
 
-## Cómo ejecutar
-
 Edita las rutas en `main.py` y ejecuta:
 ```python
 paths = ["tu/carpeta", "archivo.html"]
