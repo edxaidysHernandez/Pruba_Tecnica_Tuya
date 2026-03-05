@@ -1,15 +1,39 @@
-Solución Propuesta
-Creación de Dataset Confiable de Números de Teléfono de Clientes
-1. Introducción
+# Customer Phone Dataset Pipeline
 
-El objetivo de esta solución es diseñar un proceso automatizado que permita construir y mantener un dataset confiable de números de teléfono de clientes, garantizando:
+## Objective
 
-calidad del dato
+Design a conceptual data pipeline to build a reliable dataset of customer phone numbers, including validation, traceability, and data quality monitoring.
 
-trazabilidad
+## Solution Overview
 
-validación automática
+The proposed solution implements an automated data pipeline that:
 
-disponibilidad para análisis y comunicación con usuarios
+1. Extracts phone numbers from multiple systems
+2. Stores raw data for traceability
+3. Normalizes phone numbers
+4. Applies validation rules
+5. Generates a curated dataset for business consumption
+6. Monitors data quality through KPIs
 
-Para lograrlo se propone un pipeline de procesamiento de datos automatizado, acompañado de controles de calidad y mecanismos de monitoreo.
+## Pipeline Architecture
+
+![Pipeline](diagrams/pipeline_architecture.png)
+
+## Data Model
+
+The system uses a layered approach:
+
+- Raw layer
+- Validation layer
+- Curated dataset
+
+Details can be found in the documentation folder.
+
+## Data Quality Monitoring
+
+The pipeline includes several KPIs to monitor phone data quality, including:
+
+- percentage of valid phones
+- duplicate rate
+- invalid phone rate
+- phone distribution by source
