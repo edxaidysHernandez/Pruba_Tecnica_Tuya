@@ -24,25 +24,15 @@ html_processor/
 
 ## Cómo ejecutar
 
-1. Clona el repositorio
-```bash
-git clone https://github.com/tu_usuario/html-image-processor.git
-cd html-image-processor
-```
+## Cómo ejecutar
 
-2. Edita las rutas en `main.py`
+Edita las rutas en `main.py` y ejecuta:
 ```python
-paths = [
-    "ruta/a/tu/carpeta",   # directorio
-    "ruta/a/archivo.html"  # o archivo directo
-]
+paths = ["tu/carpeta", "archivo.html"]
 ```
-
-3. Ejecuta
 ```bash
 python main.py
 ```
-
 ## Resultado
 ```python
 {
